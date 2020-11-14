@@ -11,7 +11,7 @@
   - Compared to 2019, YouTube viewer habits will differ in 2020 due to the pandemic. 
   - However, the lockdown will not affect the viewer trends themselves asthey will remain consistant regardless social circumstances.
 Please review the following links to review the final data analysis and data exploration/clean-up process:
-[Jupiter Notebook Data Analysis](https://github.com/redeat17/Project-1/blob/master/YouTube_Trend_Analysis.ipynb)
+[MainPy](https://github.com/redeat17/Project-1/blob/master/YouTube_Trend_Analysis%20.ipynb)
 # Table of Contents
 [Questions Addressed](https://github.com/SVEENASHARMA/PythonProject#questions-addressed)
 [Data Sources](https://github.com/SVEENASHARMA/PythonProject#data-sources)
