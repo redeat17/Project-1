@@ -116,7 +116,7 @@ The scatter plots also displayed how the number of dislikes and comments remaine
 If we focus solely on the top two categories, Music and Entertainment, we see that the scatter plots are very similar with the relationship between view count and reactions. Although, it does suggest that the music category as a stronger % of dislikes and likes when there is a lower view count compared to the entertainment category.
 ## Q3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 **Hypothesis**: Compared to 2019, YouTube viewing will increase in 2020. The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances.
-**Actual Result**: Based on the various data frames produced, the data suggests that YouTube viewing increased in 2020 compared to 2019. This may be due to the stay-at-home orders issued across the world due to the COVID pandemic.The top five videos pulled from the YouTube API datasets in 2019 and 2020 were all largely international videos:
+**Actual Result**: Based on the various data frames produced, the data suggests that YouTube viewing increased in 2020 compared to 2019. However, this maynot be an acurate mesurement as youtube videos published in 2019 can still be viewed today and will be counted towards their view value.  This may be due to the stay-at-home orders issued across the world due to the COVID pandemic.The top five videos pulled from the YouTube API datasets in 2019 and 2020 were all largely international videos:
 In 2019, the top five videos:
 1) Telegu News
 2) TV5 News - Telegu News
@@ -130,13 +130,14 @@ In 2020, the top videos:
 3) Russian TV Show
 4) Blackpink - Dance Practice
 5) ABN Telegu News
+
 During the strict COVID lockdown from March to June, there were no changes in viewer trends. Regardless of the pandemic, it seems that users continued to watch their typical videos, ranging from music to fitness, and entertainment. This is displayed from our YouTube API bar chart:
 1) Diamond Platinumz - Quarantine (Tanzanian Artist)
 2) Chloe Ting - Get Snatched During Quarantine
 3) Quarantine Tik Tok Videos
 4) Hello Neighbors Steals our Quarantine Games
 5) SnowthaProducts- Nowhere to Go (Quarantine Love) (song created by a Mexican/American artist and rapper)
-11:00
+
 # Post - Mortem
 **Difficulties**
 - Due to the large datasets, with both the CSV and YouTube API, it was difficult to create a narrative for this project. The team had to figure out what data we wanted to pull and how we could connect the CSV and YouTube API datasets to form a bigger picture. We had a few meetings to discuss the overall importance and what the ultimate purpose was with our findings. All in all, it took time to figure out why we wanted this data and how it could prove useful for the YouTube community, whether that be investors or creators themselves.
