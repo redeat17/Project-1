@@ -8,10 +8,10 @@
   Hypotheses:
   - Societal events will align with YouTube Trends (ex. quarantine challenges/vlogs, new music video releases, video games etc.)
   - If viewer count increases, viewer reactions will increase as well. This includes number of likes and dislikes as well as number of comments.
-  - Compared to 2019, YouTube viewing will increase in 2020 due to the pandemic.
-  - The lockdown will not affect the viewer trends because trends will remain consistant regardless social circumstances.
+  - Compared to 2019, YouTube viewer habits will differ in 2020 due to the pandemic. 
+  - However, the lockdown will not affect the viewer trends themselves asthey will remain consistant regardless social circumstances.
 Please review the following links to review the final data analysis and data exploration/clean-up process:
-[Jupiter Notebook Data Analysis](https://github.com/redeat17/Project-1/blob/master/YouTube_Data_CombinedCode.ipynb)
+[Jupiter Notebook Data Analysis](https://github.com/redeat17/Project-1/blob/master/YouTube_Trend_Analysis.ipynb)
 # Table of Contents
 [Questions Addressed](https://github.com/SVEENASHARMA/PythonProject#questions-addressed)
 [Data Sources](https://github.com/SVEENASHARMA/PythonProject#data-sources)
@@ -32,7 +32,7 @@ Please review the following links to review the final data analysis and data exp
 2) Is there a relationship between certain user behaviors: View Count, # of Likes, # Dislikes, # Comments
 3) Is there a difference in viewing habits from 2019 to 2020? Did the strict COVID lockdown in early 2020 impact viewer trends?
 # Data Sources
-This project used a Kaggle CSV file and YouTube API to create the datasets regarding trends overtime and in specific categories. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors:
+This project used a Kaggle CSV file and YouTube API to create the datasets regarding trends overtime based on the number of views. The CSV file soley focuses on US Trending data whereas the YouTube API expanded internationally. The data collected was transformed in order to analyze and visualize with Python; it included the following factors:
 - Video Title
 - Channel Title
 - Publish Time
@@ -41,13 +41,12 @@ This project used a Kaggle CSV file and YouTube API to create the datasets regar
 - Likes and Dislikes
 - Description
 - Comment Count
-The youtube API consists of three datasets: YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
+The following three datasets were pulled from the YouTube API: YouTube Search Items, YouTube Video Statistics, and Youtube Channel Statistics. All three datasets are linked by the unique Video ID and Channel ID fields.
 
 
 
 
 
-11:00
 # Data Cleaning and Exploration
 **Pandas Process**
 With Pandas, we read the CSV file and parsed the YouTube date format into a datetime format. We calculated the lag time for each video to trend and replaced the category ID numbers with category names for readability. Afterwards, we sorted the dataframe by the number of likes and dropped any duplicate columns. We also used the groupby function in various cells for the date, number of published trending videos, categories, and months.
